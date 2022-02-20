@@ -15,7 +15,7 @@ header { position:absolute;  border-bottom:3px solid #d5d5d559;   ;z-index:5; mi
 .header_in { max-width:1920px; margin:0 auto; height:100%;  }
 
 .gnb_wrap { position:absolute; 
-    top:0; left:450px; width:100%; height:100%; 
+    top:0; left:500px; width:100%; height:100%; 
     display:flex;   }
 
 .gnb_list_w {  }
