@@ -9,7 +9,7 @@ var myFullpage = new fullpage('#fullpage', {
     normalScrollElements: '#s4',    //오토스크롤이 아니라 정상 스크롤이 적용
 
     navigation:true,
-    navigationTooltips: ['HOME', 'ABOUT ME', 'SKILLS', 'WEB', 'DEISIGN', 'CONTACT'],
+    navigationTooltips: ['HOME', 'ABOUT', 'SKILLS', 'WEB', 'DEISIGN', 'CONTACT'],
     showActiveTooltip: true,
 
 
