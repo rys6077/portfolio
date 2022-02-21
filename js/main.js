@@ -43,9 +43,15 @@ myScroll = new IScroll('.total_menu', {
 });
 
 
-$(".koreaculture").click(function(){
-    window.open("https://rkqdldyd.cafe24.com/01/%EC%9C%A0%EC%98%81%EC%83%81_%EC%8A%A4%EB%A7%88%ED%8A%B8%EB%AC%B8%ED%99%94%EC%95%B1UX%EC%84%A4%EA%B3%84/index.html", "", "resizable=no, toolbar=no, width=400 , height=1000");
-});
+
+function winOpen(){
+    window.open('https://rys6077.github.io/korea/','popup','width=412, height=915,resizable=no ')
+}
+
+
+
+
+
 
 
 
