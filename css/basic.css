@@ -132,13 +132,15 @@ header { position:absolute;  border-bottom:3px solid #d5d5d559;   ;z-index:5; mi
 
 .s4_1st {display: inline-block; margin-bottom: 150px;}
 .s4_1st_left { float: left; margin-left: 100px;}
-.s4_1st_left img { width: 500px;}
+.s4_1st_left img { width: 600px;}
+.s4_1st_right img { width: 600px;}
 .s4_1st_right { float: right; margin-left: 250px; }
+.s4_1st_left { float: left; margin-right: 250px; }
 
 
 .text {margin-top: 50px;}
-.text .title span {font-size:30px ;}
-.item {display: inline-block; font-size: 15px; line-height: 1.6; margin-top: 80px; }
+.text .title span {font-size:40px ;}
+.item {display: inline-block; font-size: 20px; line-height: 1.6; margin-top: 80px; }
 .item_left {float: left; font-weight: bold; line-height: 30px;}
 .item_right {float: right; margin-left: 50px; line-height: 30px;}
 
@@ -148,11 +150,15 @@ header { position:absolute;  border-bottom:3px solid #d5d5d559;   ;z-index:5; mi
 
 
 
-
+.s5_desc { margin-top:6vh; text-align: center;  }
 .s3_w p {position: relative; font-size: 25px; z-index: 5;}
 .s5_title {position: relative; width: 150px;  line-height: 40px; margin-bottom: 20px; border-bottom: 4px solid orange; z-index: 5;  }
-.s5_item img {position: relative; width: 250px; height: 250px; margin: 10px 30px; border-radius: 50%; z-index: 5; }
-.s5_item img:hover { width: 350px ; height: auto; border-radius: 0; transition: 1000ms;}
+.s5_item, .s5_item2 {  display: inline-flex;}
+
+
+
+.s5_item img, .s5_item2 img { position: relative; width: 250px; height: 250px; margin: 10px 30px; border-radius: 50%; z-index: 5; object-fit: cover; opacity:0.6; }
+.s5_item img:hover,.s5_item2 img:hover { cursor:pointer; transition: 1000ms; opacity:1; transform:scale(1.5); }
 
 
 .s6_w {position: relative; text-align: center; width: 800px; padding: 20px 30px; margin:0 auto; z-index: 5;  border: 4px solid #bbbbbb;}
@@ -174,6 +180,10 @@ header { position:absolute;  border-bottom:3px solid #d5d5d559;   ;z-index:5; mi
 .nextS::before { transform:rotate(-135deg); bottom:30px; }
 
 .prevS:hover , .nextS:hover { opacity:1; }
+
+
+
+
 
 
 
