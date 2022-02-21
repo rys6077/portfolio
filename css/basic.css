@@ -73,6 +73,8 @@ header { position:absolute;  border-bottom:3px solid #d5d5d559;   ;z-index:5; mi
     ;
 }
 
+
+.text  .title  span {font-family: 'Do Hyeon', serif; }
 .s2_title { width:calc(170px + 7vw); transition-duration:1000ms; }
 .s2_title h1 {font-size: 35px; text-align: center; width: 200px; line-height: 40px; border-bottom: 4px solid orange; }
 
