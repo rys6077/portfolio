@@ -189,7 +189,7 @@ section {}
 .prevS::before { transform:rotate(45deg); top:10px; }
 .nextS::before { transform:rotate(-135deg); bottom:30px; }
 
-.prevS:hover , .nextS:hover { opacity:1; }
+.prevS:hover , .nextS:hover { opacity:1; } 
 
 
 
