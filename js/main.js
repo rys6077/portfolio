@@ -49,7 +49,8 @@ function winOpen(){
 }
 
 
-
+//이미지 팝업(라이트 박스)
+lightbox.option();
 
 
 
